@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: white;
+    
+}
+body{
+    background-color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav{
+    width: 100%;
+    background-color: black;
+    position:fixed;
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15% 10% 15% 10%;
+    color: white;
+    position: absolute;
+    
+}
+
+#title h1{
+    width: 100%;
+    font-size: 15vw;
+    overflow:hidden;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#title h2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    font-size: 5vw;
+    opacity: 0.7;
+}
+
+
+#img-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;    
+}
+#img-div img{
+    width: 100%;
+    filter: brightness(0.2);
+    height: auto;
+}
+
+#img-caption{
+    text-decoration: italic underline;
+    opacity: 0.3;
+    width: 100%;
+    margin: 8% 22% 8% 0;
+    
+}
+
+#tribute-info{
+    
+    margin: 0% 0% 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tribute-article{
+    border-left: .8vw double black;
+    border-right: .8vw double black;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.article-title{
+    width: 100%;
+    padding: 5%;
+
+}
+.article-main{
+    width: 90%;
+    background-color: white;
+
+}
+
+.article div{
+    align-items: center;
+    
+}
+
+#abstract{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10% 5% 10% 5%;
+    font-size: 6vw;
+}
+
+.key-phrase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    font-size: 3vw;
+    margin: 5% 0 10% 0 ;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+
+.tab{
+    text-indent: 5%;
+    margin: 2% 0 2% 0;
+}
+
+.markdown{
+    background-color: white;
+    border-radius: 3vw;
+    box-shadow: 3vw 3vw black ;
+    border: .1vw solid black;
+}
+
+.article-title{
+    font-size: 12vw;
+    text-align: center;
+    text-decoration: underline;
+}
+.article-main{
+    font-size:4vw;
+}
