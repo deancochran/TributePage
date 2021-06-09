@@ -64,12 +64,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;    
+    position: relative;  
+    max-width: none;  
 }
 #img-div img{
     width: 100%;
     filter: brightness(0.2);
     height: auto;
+    max-width: 100%;
+    
 }
 
 #img-caption{
